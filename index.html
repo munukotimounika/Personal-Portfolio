@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Munukoti Mounika| Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="header-content">
+            <h3 class="logo">Munukoti Mounika</h3>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="about">
+        <div class="hero-content">
+            <h1>Hi, I'm Munukoti Mounika</h1>
+            <p id="typing-text"></p>
+            <a href="https://drive.google.com/file/d/1BjSE2AMYbncURoSQXbQB_yBseXX8PPfP/view?usp=sharing"
+               target="_blank" class="download-btn">Resume</a>
+        </div>
+        <div class="about-image">
+            <img src="/Mounika.jpg" alt="Munukoti Mounika">
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card fade-in">
+            <h3>Personal Portfolio Website</h3>
+            <p>Designed and developed a fully responsive portfolio using HTML, CSS, and JavaScript to showcase skills, projects, and education. Implemented smooth animations, typing effects, and a contact form.
+            <strong>Stack:</strong> HTML, CSS, JavaScript.</p>
+             <a href="" target="_blank" class="btn">View Live</a>
+            <a href="" target="_blank" class="btn">View Project</a>
+        </div>
+        <div class="project-card fade-in">
+            <h3>Online Restaurant Management System</h3>
+            <p>Developed a robust web application for restaurant operations, featuring digital menu display, order placement, billing, and an admin dashboard.
+            <strong>Stack:</strong> HTML, CSS, JavaScript, PHP, MySQL.</p>
+            <a href="https://github.com/munukotimounika/Online-Restaurant-Management-System" target="_blank" class="btn">View Project</a>
+        </div>
+        <div class="project-card fade-in">
+            <h3>Weather App</h3>
+            <p>Built an interactive weather application fetching real-time weather data from APIs, with responsive design and dynamic forecasts.
+            <strong>Stack:</strong> HTML, CSS, JavaScript, API Integration.</p>
+            <a href="https://github.com/munukotimounika/weather-app" target="_blank" class="btn">View Project</a>
+        </div>
+        <div class="project-card fade-in">
+            <h3>Django User Authentication System</h3>
+            <p>Designed and implemented a secure Django-based user authentication system with registration, login, logout, and password management.</p>
+            <strong>Stack:</strong> Python (Django), HTML, CSS, JavaScript, SQLite</p>
+            <a href="https://github.com/munukotimounika/django-auth" target="_blank" class="btn">View Project</a>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card"><i class="devicon-cplusplus-plain colored"></i><span>CPP</span></div>
+            <div class="skill-card"><i class="devicon-python-plain colored"></i><span>Python</span></div>
+            <div class="skill-card"><i class="devicon-html5-plain colored"></i><span>HTML</span></div>
+            <div class="skill-card"><i class="devicon-css3-plain colored"></i><span>CSS</span></div>
+            <div class="skill-card"><i class="devicon-javascript-plain colored"></i><span>JavaScript</span></div>
+            <div class="skill-card"><i class="devicon-java-plain colored"></i><span>Java</span></div>
+        </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education-container">
+            <div class="education-card fade-in">
+                <h3>Bachelor of Technology in Electronics & Communication Engineering</h3>
+                <p><strong>Pydah College Of Engineering </strong> — 2022 - 2025</p>
+                <p>CGPA: 8.3/10</p>
+            </div>
+            <div class="education-card fade-in">
+                <h3>Diploma in Electronics & Communication Engineering</h3>
+                <p><strong>Srinivasa Institute Of Engineering & Technology </strong> — 2019 - 2022</p>
+                <p>CGPA: 9.0/10</p>
+            </div>
+            <div class="education-card fade-in">
+                <h3>State Board of Secondary Education</h3>
+                <p><strong>Pragathi Vidyanikethan</strong> — 2018 - 2019</p>
+                <p>CGPA: 9.7/10</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <p style="text-align: center; max-width: 700px; margin: 0 auto 40px;">
+            Have a question or want to work together? Fill out the form below, and I'll get back to you as soon as possible.
+        </p>
+        <form id="contact-form" action="https://formspree.io/f/mkgzyajg" method="POST">
+            <div class="form-group">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+            </div>
+            <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+            <button type="submit" class="form-submit-btn">Send Message</button>
+        </form>
+        <div class="contact-alternatives">
+            <p>You can also reach me directly at:</p>
+            <strong>
+                <a href="tel:7013565491">📞 9440798914 </a> | <a href="mailto:mounikamunukoti@gmail.com">📧 mounikamunukoti@gmail.com</a>
+            </strong>
+        </div>
+    </section>
+
+    <!-- BACK TO TOP BUTTON -->
+    <button id="backToTop">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
